@@ -65,7 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ netspeed_tx, " %s ", "iwm0" },
+	{ netspeed_tx, "  %s ", "iwm0" },
 	{ netspeed_rx, "  %s ", "iwm0" },
 	{ ram_perc, "  %s%% ", NULL },
 	{ cpu_perc, "  %s%% ", NULL },
